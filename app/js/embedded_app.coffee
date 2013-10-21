@@ -120,7 +120,7 @@ class window.ShopifyApp
       ShopifyApp.Modal.__callback = callback
       ShopifyApp.postMessage message, data
 
-    window: ->
+    window: =>
       @getWindowParent().frames["app-modal-iframe"]
 
     open: (init, callback) ->

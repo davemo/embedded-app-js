@@ -18,4 +18,8 @@ grunt = lineman.grunt
 module.exports = lineman.config.extend "files",
   js:
     uncompressedDist: "dist/#{grunt.file.readJSON('package.json').name}.js"
+    vendor: [
+      "vendor/js/underscore.js"
+      "vendor/js/**/*.js"
+    ]
 
