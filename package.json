@@ -1,0 +1,18 @@
+{
+  "name": "embedded-app-js",
+  "version": "0.0.1",
+  "description": "A description for embedded-app-js",
+  "homepage": "https://github.com/shopify/embedded-app-js",
+  "author": {
+    "name": "David Mosher",
+    "company": "Shopify"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "coffee-script": "~ 1.6.3",
+    "underscore": "~1.5.1"
+  },
+  "devDependencies": {
+    "lineman": ">=0.14.5"
+  }
+}
