@@ -1,6 +1,6 @@
 /* embedded-app-js - 0.0.1
  * External JS file for use in Shopify embedded apps. Provides a JS API to postMessages to and from the Shopify admin.
- * https://github.com/shopify/embedded-app-js
+ * https://github.com/davemo/embedded-app-js
  */
 (function() {
   window.ShopifyApp = (function() {
